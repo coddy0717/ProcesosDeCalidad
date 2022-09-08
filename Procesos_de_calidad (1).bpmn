@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bonitaConnector="http://www.bonitasoft.org/studio/connector/definition/6.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di_1="http://www.omg.org/spec/DD/20100524/DI" xmlns:java="http://jcp.org/en/jsr/detail?id=270" xmlns:model="http://www.omg.org/spec/BPMN/20100524/MODEL" xsi:schemaLocation="schemaLocation http://www.omg.org/spec/BPMN/20100524/MODEL schemas/BPMN20.xsd" exporter="BonitaSoft" exporterVersion="7.14.0" expressionLanguage="http://groovy.apache.org/" targetNamespace="http://bonitasoft.com/_QaYJsC-QEe24C8U2mz37Iw">
+  <model:collaboration id="_QaYJsC-QEe24C8U2mz37Iw">
+    <model:participant id="_HQbT4C-WEe24C8U2mz37Iw" name="Actualizacion de Versiones" processRef="_QaYJsS-QEe24C8U2mz37Iw"/>
+    <model:participant id="_QaYJyy-QEe24C8U2mz37Iw" name="Employee actor">
+      <model:documentation>Este es un ejemplo de actor que está mapeado a cualquier usuario de la organización ACME</model:documentation>
+    </model:participant>
+    <model:participant id="_EvKYYC-TEe24C8U2mz37Iw" name="jefe"/>
+    <model:participant id="_LvUocC-TEe24C8U2mz37Iw" name="Lider del Equipo"/>
+    <model:participant id="_Or2rAC-TEe24C8U2mz37Iw" name="Evaluador "/>
+  </model:collaboration>
+  <model:process id="_QaYJsS-QEe24C8U2mz37Iw" name="Actualizacion de Versiones">
+    <model:ioSpecification id="_HQovQS-WEe24C8U2mz37Iw">
+      <model:dataInput id="_HQovQi-WEe24C8U2mz37Iw" itemSubjectRef="_eikMYC-QEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovSC-WEe24C8U2mz37Iw" itemSubjectRef="_lNcwAC-QEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovTi-WEe24C8U2mz37Iw" itemSubjectRef="_nK3gZC-QEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovVC-WEe24C8U2mz37Iw" itemSubjectRef="_037Z8C-SEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovWi-WEe24C8U2mz37Iw" itemSubjectRef="_VhmlYC-UEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovYC-WEe24C8U2mz37Iw" itemSubjectRef="_hdQCkC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovZi-WEe24C8U2mz37Iw" itemSubjectRef="_ohs8wC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovbC-WEe24C8U2mz37Iw" itemSubjectRef="_p5ufoC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovci-WEe24C8U2mz37Iw" itemSubjectRef="_sLZAQC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQoveC-WEe24C8U2mz37Iw" itemSubjectRef="_vLXYYC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovfi-WEe24C8U2mz37Iw" itemSubjectRef="_xFPrIC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovhC-WEe24C8U2mz37Iw" itemSubjectRef="_2EelQC-VEe24C8U2mz37Iw"/>
+      <model:dataInput id="_HQovii-WEe24C8U2mz37Iw" itemSubjectRef="_7Jbs4C-VEe24C8U2mz37Iw"/>
+      <model:inputSet id="_HQovQy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovQi-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovSS-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovSC-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovTy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovTi-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovVS-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovVC-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovWy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovWi-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovYS-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovYC-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovZy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovZi-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovbS-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovbC-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovcy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovci-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQoveS-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQoveC-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovfy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovfi-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQovhS-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovhC-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:inputSet id="_HQoviy-WEe24C8U2mz37Iw">
+        <model:dataInputRefs>_HQovii-WEe24C8U2mz37Iw</model:dataInputRefs>
+      </model:inputSet>
+      <model:outputSet id="_HQovjy-WEe24C8U2mz37Iw"/>
+    </model:ioSpecification>
+    <model:laneSet id="actualizacion-de-versiones_laneSet">
+      <model:lane id="_QaYJsi-QEe24C8U2mz37Iw" name="Equipo de Desarrollo ">
+        <model:flowNodeRef>_QaYJsy-QEe24C8U2mz37Iw</model:flowNodeRef>
+        <model:flowNodeRef>_QaYJty-QEe24C8U2mz37Iw</model:flowNodeRef>
+        <model:flowNodeRef>_Tp154C-REe24C8U2mz37Iw</model:flowNodeRef>
+        <model:flowNodeRef>_tPLVUC-REe24C8U2mz37Iw</model:flowNodeRef>
+      </model:lane>
+      <model:lane id="_RhnekC-QEe24C8U2mz37Iw" name="Equipo de Pruebas">
+        <model:flowNodeRef>__RpRsC-QEe24C8U2mz37Iw</model:flowNodeRef>
+        <model:flowNodeRef>_TfEX0C-SEe24C8U2mz37Iw</model:flowNodeRef>
+      </model:lane>
+      <model:lane id="_R7ySEC-QEe24C8U2mz37Iw" name="Lider del Equipo">
+        <model:flowNodeRef>_AavyUC-SEe24C8U2mz37Iw</model:flowNodeRef>
+        <model:flowNodeRef>_ClxfcC-SEe24C8U2mz37Iw</model:flowNodeRef>
+        <model:flowNodeRef>_pm2R0C-TEe24C8U2mz37Iw</model:flowNodeRef>
+      </model:lane>
+    </model:laneSet>
+    <model:dataObject id="DataObject_HQovQC-WEe24C8U2mz37Iw_eikMYC-QEe24C8U2mz37Iw" name="nombre_actualizacion" isCollection="false" itemSubjectRef="_eikMYC-QEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovRy-WEe24C8U2mz37Iw_lNcwAC-QEe24C8U2mz37Iw" name="aprobacion" isCollection="false" itemSubjectRef="_lNcwAC-QEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovTS-WEe24C8U2mz37Iw_nK3gZC-QEe24C8U2mz37Iw" name="comentario" isCollection="false" itemSubjectRef="_nK3gZC-QEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovUy-WEe24C8U2mz37Iw_037Z8C-SEe24C8U2mz37Iw" name="actualizacion" isCollection="false" itemSubjectRef="_037Z8C-SEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovWS-WEe24C8U2mz37Iw_VhmlYC-UEe24C8U2mz37Iw" name="lider" isCollection="false" itemSubjectRef="_VhmlYC-UEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovXy-WEe24C8U2mz37Iw_hdQCkC-VEe24C8U2mz37Iw" name="evaluador" isCollection="false" itemSubjectRef="_hdQCkC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovZS-WEe24C8U2mz37Iw_ohs8wC-VEe24C8U2mz37Iw" name="equipo_de_desarrollo" isCollection="false" itemSubjectRef="_ohs8wC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovay-WEe24C8U2mz37Iw_p5ufoC-VEe24C8U2mz37Iw" name="equipo_de_pruebas" isCollection="false" itemSubjectRef="_p5ufoC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovcS-WEe24C8U2mz37Iw_sLZAQC-VEe24C8U2mz37Iw" name="lider_del_equipo" isCollection="false" itemSubjectRef="_sLZAQC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovdy-WEe24C8U2mz37Iw_vLXYYC-VEe24C8U2mz37Iw" name="mensajeapro" isCollection="false" itemSubjectRef="_vLXYYC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovfS-WEe24C8U2mz37Iw_xFPrIC-VEe24C8U2mz37Iw" name="mensajededene" isCollection="false" itemSubjectRef="_xFPrIC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQovgy-WEe24C8U2mz37Iw_2EelQC-VEe24C8U2mz37Iw" name="mensaje_err" isCollection="false" itemSubjectRef="_2EelQC-VEe24C8U2mz37Iw"/>
+    <model:dataObject id="DataObject_HQoviS-WEe24C8U2mz37Iw_7Jbs4C-VEe24C8U2mz37Iw" name="mensaje_apro" isCollection="false" itemSubjectRef="_7Jbs4C-VEe24C8U2mz37Iw">
+      <model:documentation>Funciona </model:documentation>
+    </model:dataObject>
+    <model:startEvent id="_QaYJsy-QEe24C8U2mz37Iw" name="Incio"/>
+    <model:userTask id="_QaYJty-QEe24C8U2mz37Iw" name="Crear Actualizacion ">
+      <model:performer id="_HQ7qMC-WEe24C8U2mz37Iw">
+        <model:resourceRef>_QaYJyy-QEe24C8U2mz37Iw</model:resourceRef>
+      </model:performer>
+    </model:userTask>
+    <model:sendTask id="_Tp154C-REe24C8U2mz37Iw" name="Notificar Error">
+      <model:documentation>EROR EN UN MODULO </model:documentation>
+      <model:standardLoopCharacteristics id="_HQ7qMy-WEe24C8U2mz37Iw" testBefore="false">
+        <model:loopCondition xsi:type="model:tFormalExpression" id="_HQ7qMi-WEe24C8U2mz37Iw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">1</model:loopCondition>
+      </model:standardLoopCharacteristics>
+    </model:sendTask>
+    <model:userTask id="_tPLVUC-REe24C8U2mz37Iw" name="Corrigir el Error">
+      <model:performer id="_HQ7qNS-WEe24C8U2mz37Iw">
+        <model:resourceRef>_QaYJyy-QEe24C8U2mz37Iw</model:resourceRef>
+      </model:performer>
+    </model:userTask>
+    <model:userTask id="__RpRsC-QEe24C8U2mz37Iw" name="Evaluar">
+      <model:performer id="_HQ7qNy-WEe24C8U2mz37Iw">
+        <model:resourceRef>_Or2rAC-TEe24C8U2mz37Iw</model:resourceRef>
+      </model:performer>
+    </model:userTask>
+    <model:exclusiveGateway id="_TfEX0C-SEe24C8U2mz37Iw" name="Existe un error?" default="_Gf19wC-REe24C8U2mz37Iw"/>
+    <model:userTask id="_AavyUC-SEe24C8U2mz37Iw" name="Despliegue">
+      <model:performer id="_HQ7qOi-WEe24C8U2mz37Iw">
+        <model:resourceRef>_LvUocC-TEe24C8U2mz37Iw</model:resourceRef>
+      </model:performer>
+    </model:userTask>
+    <model:endEvent id="_ClxfcC-SEe24C8U2mz37Iw" name="Fin"/>
+    <model:sendTask id="_pm2R0C-TEe24C8U2mz37Iw" name="Notificar Aprobacion ">
+      <model:documentation>funciona </model:documentation>
+      <model:standardLoopCharacteristics id="_HQ7qPi-WEe24C8U2mz37Iw" loopMaximum="1" testBefore="false">
+        <model:loopCondition xsi:type="model:tFormalExpression" id="_HQ7qPS-WEe24C8U2mz37Iw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">1</model:loopCondition>
+      </model:standardLoopCharacteristics>
+    </model:sendTask>
+    <model:sequenceFlow id="_QaYJyC-QEe24C8U2mz37Iw" name="" sourceRef="_QaYJsy-QEe24C8U2mz37Iw" targetRef="_QaYJty-QEe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="_-wEOoC-QEe24C8U2mz37Iw" name="" sourceRef="_QaYJty-QEe24C8U2mz37Iw" targetRef="__RpRsC-QEe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="_B8Gs0C-REe24C8U2mz37Iw" name="" sourceRef="__RpRsC-QEe24C8U2mz37Iw" targetRef="_TfEX0C-SEe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="_Gf19wC-REe24C8U2mz37Iw" name="Si" sourceRef="_TfEX0C-SEe24C8U2mz37Iw" targetRef="_Tp154C-REe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="_HG9oLC-REe24C8U2mz37Iw" name="No" sourceRef="_TfEX0C-SEe24C8U2mz37Iw" targetRef="_pm2R0C-TEe24C8U2mz37Iw">
+      <model:conditionExpression xsi:type="model:tFormalExpression" id="_HRFbMC-WEe24C8U2mz37Iw" evaluatesToTypeRef="java:java.lang.Boolean" language="http://www.w3.org/1999/XPath">getDataObject('_lNcwAC-QEe24C8U2mz37Iw')</model:conditionExpression>
+    </model:sequenceFlow>
+    <model:sequenceFlow id="_s4xAcC-REe24C8U2mz37Iw" name="" sourceRef="_Tp154C-REe24C8U2mz37Iw" targetRef="_tPLVUC-REe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="_5_m64C-REe24C8U2mz37Iw" name="" sourceRef="_tPLVUC-REe24C8U2mz37Iw" targetRef="_QaYJty-QEe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="__aWFQC-REe24C8U2mz37Iw" name="" sourceRef="_pm2R0C-TEe24C8U2mz37Iw" targetRef="_AavyUC-SEe24C8U2mz37Iw"/>
+    <model:sequenceFlow id="_EAAo0C-SEe24C8U2mz37Iw" name="" sourceRef="_AavyUC-SEe24C8U2mz37Iw" targetRef="_ClxfcC-SEe24C8U2mz37Iw"/>
+  </model:process>
+  <model:itemDefinition id="_eikMYC-QEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_lNcwAC-QEe24C8U2mz37Iw" structureRef="java:java.lang.Boolean"/>
+  <model:itemDefinition id="_nK3gZC-QEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_037Z8C-SEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_VhmlYC-UEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_hdQCkC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_ohs8wC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_p5ufoC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_sLZAQC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_vLXYYC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_xFPrIC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_2EelQC-VEe24C8U2mz37Iw" structureRef="java:java.lang.String"/>
+  <model:itemDefinition id="_7Jbs4C-VEe24C8U2mz37Iw" structureRef="java:java.lang.String">
+    <model:documentation>Funciona </model:documentation>
+  </model:itemDefinition>
+  <di:BPMNDiagram name="MiDiagrama">
+    <di:BPMNPlane id="plane__QaYJsC-QEe24C8U2mz37Iw" bpmnElement="_QaYJsC-QEe24C8U2mz37Iw">
+      <di:BPMNShape id="_QaYJ5i-QEe24C8U2mz37Iw" bpmnElement="_HQbT4C-WEe24C8U2mz37Iw" isHorizontal="true">
+        <dc:Bounds height="856.0" width="1320.0" x="0.0" y="0.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_QaYJ6S-QEe24C8U2mz37Iw" bpmnElement="_QaYJsi-QEe24C8U2mz37Iw" isHorizontal="true">
+        <dc:Bounds height="356.0" width="1290.0" x="30.0" y="0.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_QaYJ7y-QEe24C8U2mz37Iw" bpmnElement="_QaYJsy-QEe24C8U2mz37Iw">
+        <dc:Bounds height="30.0" width="30.0" x="90.0" y="68.0"/>
+        <di:BPMNLabel id="_HQygQS-WEe24C8U2mz37Iw" labelStyle="_HQygQC-WEe24C8U2mz37Iw">
+          <dc:Bounds height="17.0" width="37.0" x="87.0" y="103.0"/>
+        </di:BPMNLabel>
+      </di:BPMNShape>
+      <di:BPMNShape id="_QaYJ7C-QEe24C8U2mz37Iw" bpmnElement="_QaYJty-QEe24C8U2mz37Iw">
+        <dc:Bounds height="79.0" width="159.0" x="190.0" y="60.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_Tp156S-REe24C8U2mz37Iw" bpmnElement="_Tp154C-REe24C8U2mz37Iw">
+        <dc:Bounds height="72.0" width="147.0" x="451.0" y="196.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_tPL8YC-REe24C8U2mz37Iw" bpmnElement="_tPLVUC-REe24C8U2mz37Iw">
+        <dc:Bounds height="79.0" width="158.0" x="781.0" y="153.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_RhoFoC-QEe24C8U2mz37Iw" bpmnElement="_RhnekC-QEe24C8U2mz37Iw" isHorizontal="true">
+        <dc:Bounds height="250.0" width="1290.0" x="30.0" y="356.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="__RpRvS-QEe24C8U2mz37Iw" bpmnElement="__RpRsC-QEe24C8U2mz37Iw">
+        <dc:Bounds height="78.0" width="156.0" x="199.0" y="458.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_TfE-4y-SEe24C8U2mz37Iw" bpmnElement="_TfEX0C-SEe24C8U2mz37Iw">
+        <dc:Bounds height="43.0" width="43.0" x="483.0" y="473.0"/>
+        <di:BPMNLabel id="_HQ7qOS-WEe24C8U2mz37Iw" labelStyle="_HQygQC-WEe24C8U2mz37Iw">
+          <dc:Bounds height="17.0" width="118.0" x="445.0" y="521.0"/>
+        </di:BPMNLabel>
+      </di:BPMNShape>
+      <di:BPMNShape id="_R7y5IC-QEe24C8U2mz37Iw" bpmnElement="_R7ySEC-QEe24C8U2mz37Iw" isHorizontal="true">
+        <dc:Bounds height="250.0" width="1290.0" x="30.0" y="606.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_AavyXS-SEe24C8U2mz37Iw" bpmnElement="_AavyUC-SEe24C8U2mz37Iw">
+        <dc:Bounds height="80.0" width="160.0" x="788.0" y="690.0"/>
+      </di:BPMNShape>
+      <di:BPMNShape id="_ClyGgC-SEe24C8U2mz37Iw" bpmnElement="_ClxfcC-SEe24C8U2mz37Iw">
+        <dc:Bounds height="30.0" width="30.0" x="1076.0" y="714.0"/>
+        <di:BPMNLabel id="_HQ7qPC-WEe24C8U2mz37Iw" labelStyle="_HQygQC-WEe24C8U2mz37Iw">
+          <dc:Bounds height="17.0" width="22.0" x="1080.0" y="749.0"/>
+        </di:BPMNLabel>
+      </di:BPMNShape>
+      <di:BPMNShape id="_pm2R2S-TEe24C8U2mz37Iw" bpmnElement="_pm2R0C-TEe24C8U2mz37Iw">
+        <dc:Bounds height="86.0" width="173.0" x="451.0" y="690.0"/>
+      </di:BPMNShape>
+      <di:BPMNEdge id="_QaYJ_i-QEe24C8U2mz37Iw" bpmnElement="_QaYJyC-QEe24C8U2mz37Iw">
+        <di_1:waypoint x="120.0" y="91.0"/>
+        <di_1:waypoint x="190.0" y="91.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_-wE1sC-QEe24C8U2mz37Iw" bpmnElement="_-wEOoC-QEe24C8U2mz37Iw">
+        <di_1:waypoint x="273.0" y="139.0"/>
+        <di_1:waypoint x="273.0" y="458.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_B8Gs0y-REe24C8U2mz37Iw" bpmnElement="_B8Gs0C-REe24C8U2mz37Iw">
+        <di_1:waypoint x="355.0" y="495.0"/>
+        <di_1:waypoint x="483.0" y="495.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_Gf19wy-REe24C8U2mz37Iw" bpmnElement="_Gf19wC-REe24C8U2mz37Iw">
+        <di_1:waypoint x="514.0" y="473.0"/>
+        <di_1:waypoint x="514.0" y="268.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_HG9oLy-REe24C8U2mz37Iw" bpmnElement="_HG9oLC-REe24C8U2mz37Iw">
+        <di_1:waypoint x="520.0" y="516.0"/>
+        <di_1:waypoint x="520.0" y="690.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_s4xngC-REe24C8U2mz37Iw" bpmnElement="_s4xAcC-REe24C8U2mz37Iw">
+        <di_1:waypoint x="598.0" y="212.0"/>
+        <di_1:waypoint x="781.0" y="212.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_5_nh8i-REe24C8U2mz37Iw" bpmnElement="_5_m64C-REe24C8U2mz37Iw">
+        <di_1:waypoint x="781.0" y="180.0"/>
+        <di_1:waypoint x="488.0" y="180.0"/>
+        <di_1:waypoint x="488.0" y="134.0"/>
+        <di_1:waypoint x="349.0" y="134.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="__aWsUC-REe24C8U2mz37Iw" bpmnElement="__aWFQC-REe24C8U2mz37Iw">
+        <di_1:waypoint x="624.0" y="731.0"/>
+        <di_1:waypoint x="788.0" y="731.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+      <di:BPMNEdge id="_EABP4i-SEe24C8U2mz37Iw" bpmnElement="_EAAo0C-SEe24C8U2mz37Iw">
+        <di_1:waypoint x="948.0" y="729.0"/>
+        <di_1:waypoint x="1076.0" y="729.0"/>
+        <di:BPMNLabel/>
+      </di:BPMNEdge>
+    </di:BPMNPlane>
+    <di:BPMNLabelStyle id="_HQygQC-WEe24C8U2mz37Iw">
+      <dc:Font isBold="false" isItalic="false" isStrikeThrough="false" isUnderline="false" name="Segoe UI" size="9.0"/>
+    </di:BPMNLabelStyle>
+  </di:BPMNDiagram>
+</model:definitions>
